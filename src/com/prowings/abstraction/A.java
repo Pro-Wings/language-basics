@@ -24,4 +24,6 @@ public abstract class A {
 
 	
 	//test git change
+	//test git change2
+	
 }
