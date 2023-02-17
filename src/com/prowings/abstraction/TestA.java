@@ -1,0 +1,17 @@
+package com.prowings.abstraction;
+
+public class TestA extends A{
+	
+	public TestA(int i, String nm)
+	{
+		super(i,nm);//call to parent constructor
+	}
+
+	
+	public static void main(String[] args) {
+		
+		TestA  a = new TestA(10, "Ram");
+		
+		a.printA();
+	}
+}
