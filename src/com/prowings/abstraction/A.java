@@ -2,28 +2,13 @@ package com.prowings.abstraction;
 
 public abstract class A {
 	
-	int id;
-	String name;
-
-	public A() {
-		super();
-	}
-
-	public A(int id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
 	
+	public abstract void m1();
 	
-	public void printA()
+	public void hello()
 	{
-		System.out.println(this.id);
-		System.out.println(this.name);
+		System.out.println("hello");
 	}
-
 	
-	//test git change
-	//test git change2
 	
 }

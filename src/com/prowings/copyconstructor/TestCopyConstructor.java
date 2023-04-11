@@ -1,5 +1,7 @@
 package com.prowings.copyconstructor;
 
+import static java.lang.Math.sqrt;
+
 public class TestCopyConstructor {
 	
 	public static void main(String[] args) {
@@ -22,6 +24,7 @@ public class TestCopyConstructor {
 		System.out.println("After changing address Emp1 : "+emp1);
 		System.out.println("After changing address Emp2 : "+emp2);
 
+		sqrt(10);
 		
 	}
 

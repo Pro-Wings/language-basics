@@ -13,7 +13,7 @@ public class MainMethodOverloadingDemo {
 		
 	}
 	 static public void main(Integer[] args) {
-		 System.out.println("inside original main method");
+		 System.out.println("inside another main method");
 	 }
 
 	
